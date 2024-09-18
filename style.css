@@ -1,0 +1,226 @@
+/* General Styles */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    
+    background-image: url(images/white-bg.jpg);
+    height: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: #000000;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.2em;
+    color: #353434;
+    text-shadow: 0px 0px 25px  #313538;
+}
+
+.justify {
+    text-align: justify;
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+    font-family: 'Helvetica', 'Poppins', sans-serif,  ;
+}
+
+/* Icons */
+ul li:before {
+    content: "\f0da"; /* Unicode for a FontAwesome icon */
+    font-family: FontAwesome;
+    padding-right: 8px;
+    color: #6484a7;
+}
+
+/* Links */
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Text Alignment */
+#about, #skills, #projects, #contact {
+    text-align: left;
+}
+
+#about, #skills, #projects {
+    float: left;
+    width: 48%;
+    margin: 1%;
+}
+
+/* Clear floats */
+footer {
+    clear: both;
+}
+
+/* Images with max-width */
+img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.left{
+    text-align: left;
+}
+
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+/* Navigation Bar */
+nav ul {
+    background-color: #000000;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center; 
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Dropdown */
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #333;
+   
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Image Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 30%;
+    opacity: 0.8;
+    box-shadow: 0px 0px 20px yellowgreen;
+}
+
+.gallery img:hover {
+    opacity: 1;
+}
+
+/* Image Sprite for Social Icons */
+.sprite {
+    width: 210px;
+    height: 230px;
+    background: url('images/sprite.png') no-repeat;
+    display: inline-block;
+}
+
+.sprite.facebook {
+    background-position: 0px 0px;
+}
+
+.sprite.twitter {
+    background-position: -10px -230px;
+}
+
+.sprite.linkedin {
+    background-position: -420px -230px;
+}
+.sprite.instagram {
+    background-position: -225px 0px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+div.box{
+    border: 10px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+      
+}
